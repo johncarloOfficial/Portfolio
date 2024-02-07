@@ -7,11 +7,20 @@
     .about-containers{
         flex-wrap: wrap;
     }
-    
+	.section__pic-container-experience{
+		height: 150px;
+		width: 250px;
+	}
 }
 
 
 @media screen and (max-width: 1200px){
+	
+	.section__pic-container-experience{
+		height: 400px;
+		width: 250px;
+	}
+	
     .nav-pc{
         display: none;
     }
@@ -49,6 +58,11 @@
 }
 
 @media screen and (max-width: 600px){
+	
+	.section__pic-container-experience{
+		height: 150px;
+		width: 250px;
+	}
     #contact, 
     footer{
         height: 40vh;
