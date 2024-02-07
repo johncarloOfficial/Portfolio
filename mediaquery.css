@@ -11,11 +11,17 @@
 		height: 150px;
 		width: 250px;
 	}
+    .project-img-banner{
+        width: 100%;
+    }
 }
 
 
 @media screen and (max-width: 1200px){
-	
+	.project-img-banner{
+        border-radius: 2rem;
+        width: 130%;
+    }
 	.section__pic-container-experience{
 		height: 400px;
 		width: 250px;
@@ -58,7 +64,10 @@
 }
 
 @media screen and (max-width: 600px){
-	
+	.project-img-banner{
+        border-radius: 2rem;
+        width: 160%;
+    }
 	.section__pic-container-experience{
 		height: 150px;
 		width: 250px;
